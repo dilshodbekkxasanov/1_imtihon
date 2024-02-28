@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+
+  
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+ol,
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+}
+
+.site_header{
+    width: 1000px;
+    height: 41.54px;
+    margin-left: 125px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.wrap{
+    width: 1000px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 125px;
+
+}
+
+.icon{
+    width: 35px;
+    height: 41.54px;
+    color: #333333;
+}
+
+.items_search{
+    width: 149px;
+    height: 23px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #666666;
+
+}
+
+main {
+    flex-grow: 1;
+  }
+
+/* <---------------------------------------- section 1 ni steli ----------------------------> */
+.section_1{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 138px;
+    gap: 60px;
+}
+.Freedom_calls{
+    width: 490px;
+    height: 291px;
+    margin-top: 180px;
+    margin-left: 125px;
+
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+
+}
+p{
+    font-size: 16px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+}
+hr{
+    margin: 0;
+}
+
+/* <-------------------------------------- section 2 ni steli --------------------------------> */
+
+.section_2{
+    width: 1250px;
+    height: auto;
+    
+    margin: 0;
+    /* padding: 70px; */
+    
+}
+.section_2_nav_list{
+    gap: 80px;
+}
+.section_2_item{
+    width: 290px;
+    height: 172px;
+    background-color: #fff;
+}
+.section_2_item_p{
+    margin: 0;
+}
+.section_2_nav{
+    margin: 70px;
+    
+}
+.section_2_imgs{
+    width: 99px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+/* <----------------------------------  section 3 ni stile ----------------------------------> */
+
+.section_3{
+    width: 1250px;
+    height: auto;
+    padding: 70px;
+    margin-top: 70px;
+    
+
+}
+.h222{
+    font-size: 50px;
+    width: 380px;
+    height: 180px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.section_3_buy{
+    width: 1000px;
+    height: 600px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 106px;
+
+    
+}
+.section_3_rasm{
+    width: 400px;
+    height: auto;
+    
+
+}
+.now{
+    width: 490px;
+    height: 387px;
+    height: auto;
+    
+
+}
+.section_3_img{
+    width: 400px;
+    height: 600px;
+    margin-left: 110px;
+}
+.section_3_p{
+    margin: 0;
+    width: 450px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+}
+
+
+/* <--------------------------------------Foterni stili ------------------------------- */
+
+.site_footer{
+    width: 1250px;
+    height: 830px;
+    background-image: url("./imgs/runners\ 1.jpg");
+}
+
+.footer-start{
+    width: 490px;
+    height: 351px;
+    transform: translate(635px,240px);
+}
+
+.footer_h1{
+    font-size: 50px;
+    color: #fff;
+}
+.paragrf{
+    font-size: 16px;
+    color: #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 30px;
+}
