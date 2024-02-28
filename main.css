@@ -112,10 +112,18 @@ h1{
     margin: 0;
 
 }
+.p1{
+    font-size: 16px;
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+}
 p{
     font-size: 16px;
     margin: 0;
-    margin-left: 40px;
+    margin-left: 0px;
     margin-top: 30px;
 }
 
